@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface myprojectnameTests : XCTestCase
+@interface MonorepoAppTests : XCTestCase
 
 @end
 
-@implementation myprojectnameTests
+@implementation MonorepoAppTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
